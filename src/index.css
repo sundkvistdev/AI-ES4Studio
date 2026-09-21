@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --swing-bg: #d4d0c8;
+    --swing-dark-shadow: #404040;
+    --swing-shadow: #808080;
+    --swing-highlight: #ffffff;
+    --swing-light: #ece9d8;
+    --swing-selection: #0a246a;
+    --swing-selection-text: #ffffff;
+    --swing-metal-blue: #3a6ea5;
+  }
+
+  body {
+    font-family: Tahoma, "Segoe UI", "MS Sans Serif", Arial, sans-serif;
+    font-size: 11px;
+    background-color: var(--swing-bg);
+    color: #000000;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  /* 2002 Retro scrollbars */
+  ::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+    background: #e0ded8;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #e8e6e0;
+    border: 1px solid #d4d0c8;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #d4d0c8;
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+  }
+
+  ::-webkit-scrollbar-thumb:active {
+    background: #c0bcb4;
+    border-top: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+  }
+
+  ::-webkit-scrollbar-button {
+    background: #d4d0c8;
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+/* 2002 Java Swing Bevel Utilities */
+.swing-bevel-raised {
+  border-top: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+}
+
+.swing-bevel-raised-strong {
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #404040;
+  border-bottom: 2px solid #404040;
+}
+
+.swing-bevel-sunken {
+  border-top: 1px solid #808080;
+  border-left: 1px solid #808080;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.swing-bevel-sunken-strong {
+  border-top: 2px solid #808080;
+  border-left: 2px solid #808080;
+  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+.swing-etched {
+  border: 1px solid #909090;
+  outline: 1px solid #ffffff;
+  outline-offset: -2px;
+}
+
+.swing-titlebar {
+  background: linear-gradient(90deg, #0a246a 0%, #a6caf0 100%);
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.swing-titlebar-inactive {
+  background: linear-gradient(90deg, #808080 0%, #c0c0c0 100%);
+  color: #d4d0c8;
+}
+
+.code-font {
+  font-family: "JetBrains Mono", "Courier New", Courier, monospace;
+}
+

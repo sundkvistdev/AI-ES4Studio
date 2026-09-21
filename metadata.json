@@ -1,0 +1,6 @@
+{
+  "name": "ES4 Studio 2002",
+  "description": "A 2002 Java IDE developer environment for ECMAScript 4 with an AST parser, CodeMagic, JSON IR, binary bytecode compiler & VM.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
